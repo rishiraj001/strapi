@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room2s",
+  "info": {
+    "singularName": "room2",
+    "pluralName": "room2s",
+    "displayName": "Room2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

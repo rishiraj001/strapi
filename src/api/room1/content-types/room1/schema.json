@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room1s",
+  "info": {
+    "singularName": "room1",
+    "pluralName": "room1s",
+    "displayName": "Room1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

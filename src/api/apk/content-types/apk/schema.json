@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apks",
+  "info": {
+    "singularName": "apk",
+    "pluralName": "apks",
+    "displayName": "apk"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
